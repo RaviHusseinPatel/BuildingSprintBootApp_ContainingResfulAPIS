@@ -7,9 +7,9 @@ public class GreetingPOJO {
 
 
 
-    public  GreetingPOJO(String name){
+    public  GreetingPOJO(String name, int time){
         this.name=name;
-        this.time=0000;
+        this.time=0001;
     }
     public String getName() {
         return name;
